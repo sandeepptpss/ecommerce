@@ -1,19 +1,28 @@
 import './App.css';
-import Nav from './Nav'
-import Footer from './footer';
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav'
+import Footer from './components/footer';
+import SignUp from './components/SignUp';
+
+
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      
-      <Nav />
-      <h2>Shopping Cart Dashboard</h2>
-
-      </BrowserRouter>
-      <Footer />
-    </div>
+    <BrowserRouter>
+    <Nav />
+    <Routes>
+    <Route path="/" element={<h2>Product Component</h2>}/>
+    <Route path="/add" element={<h2>Add Product  Component</h2>}/>
+    <Route path="/delete" element={<h2>Delete Product Component</h2>}/>
+    <Route path="/update" element={<h2>Update Component</h2>}/>
+    <Route path="/profile" element={<h2>Profile Component</h2>}/>
+    <Route path="/logout" element={<h2>Logout Component</h2>}/>
+    <Route path="/signup" element={<SignUp />}/>
+    </Routes>
+    </BrowserRouter>
+    <Footer />
+  </div>
   );
 }
 export default App;

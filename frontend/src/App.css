@@ -10,6 +10,33 @@
 .main-nav li a:link {
   text-decoration: none;
 }
+ul.main-nav.nav-menu{
+  padding: 0;
+  background: #6d412a;
+  height: 50px;
+}
+ul.main-nav.nav-menu li a {
+  color: #fff;
+}
+.footer-title{
+  color: #fff; 
+}
+
+.main-footer-section {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #000;
+}
+
+input.sign-input-box {
+  margin-left: 365px !important;
+  margin: 21px;
+  display: block;
+  padding: 7px;
+  width: 500px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
