@@ -12,7 +12,7 @@
 }
 ul.main-nav.nav-menu{
   padding: 0;
-  background: #6d412a;
+  background: #4eb1e4;
   height: 50px;
 }
 ul.main-nav.nav-menu li a {
@@ -24,10 +24,14 @@ ul.main-nav.nav-menu li a {
 
 .main-footer-section {
   position: absolute;
-  bottom: 0;
   text-align: center;
   width: 100%;
+  bottom: 0;
   background: #000;
+}
+img.banner-img {
+  width: 100%;
+  margin-top: -20px;
 }
 
 input.sign-input-box {
