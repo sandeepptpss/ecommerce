@@ -34,10 +34,10 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 Craete Node Js Ecommerce App install step( backend)
 
-   npm init
-   npm i express
-   npm i mongoose
-   npm i nodemon
+    npm init
+    npm i express
+    npm i mongoose
+    npm i nodemon
 
 Create React Ecommerce App install step
 
