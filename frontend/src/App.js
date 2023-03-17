@@ -1,13 +1,10 @@
 import './custom.css';
-
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav'
 import Footer from './components/footer';
 import SignUp from './components/SignUp';
 import Product from './components/Product';
-
-
 function App() {
   return (
     <div className="App">
